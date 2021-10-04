@@ -1,18 +1,15 @@
 import java.util.Scanner;
-import java.util.Arrays;
 
 class largest_element_in_array {
     public static int largestElement(int arr[]) {
-        //int largest=0;
+        int largest=0;
     
-        // for(int j=0; j < arr.length; j++){
-        //     if(arr[j] > arr[largest]){
-        //         largest=j;
-        //     }
-        // }
-         // return largest;
-         Arrays.sort(arr);
-         return arr[arr.length-1];
+        for(int j=0; j < arr.length; j++){
+            if(arr[j] > arr[largest]){
+                largest=j;
+            }
+        }
+        return largest;
     }
     public static void main(String[] args) {
          Scanner sc=new Scanner(System.in);
