@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class check_sorted_array {
-
+//We have check that given array is sorted or not in increeasing manner
     public static boolean checkSorted(int arr[]){
        
         for(int i=0; i<arr.length-1; i++){
