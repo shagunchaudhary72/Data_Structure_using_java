@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class BinarySearch {
+public class BinarySearchIterative {
   
     static int binarySearch( int[] arr, int num){
+        
         int low = 0;
         int high = arr.length-1;
         while( low <= high ){
@@ -22,7 +23,7 @@ public class BinarySearch {
             System.out.print("Enter size of array  : ");
            int size=sc.nextInt();
            int [] arr=new int[size];
-           System.out.print("Enter elements of array : ");
+           System.out.print("Enter elements of array in Sorted Manner : ");
            for(int i=0; i<size; i++){
                arr[i]=sc.nextInt();
            }
