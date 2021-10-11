@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FirstOccureenceBinarySearch {
+public class FirstOccurence {
     
     //For Sorted Arrays
     // static int firstOccurence( int[] arr, int num ){
@@ -55,7 +55,7 @@ public static void main(String[] args) {
     if( index == -1){
         System.out.println("Element is not present in the given array ");
     }else{
-     System.out.println("Element is present at " + index + " index in the given array ");
+     System.out.println("First Occurence is present at " + index + " index in the given array ");
     }
 }
 }
