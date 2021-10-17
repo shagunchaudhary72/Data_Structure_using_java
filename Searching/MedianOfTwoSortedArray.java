@@ -26,6 +26,6 @@ public class MedianOfTwoSortedArray {
     public static void main(String[] args) {
         int[] arr1 = { 2, 6, 8, 4};
         int[] arr2 = { 1, 8, 6, 7};
-        System.out.println("Median : " + median(arr1, arr2)); // 2.5
+        System.out.println("Median : " + median(arr1, arr2)); 
     }
 }
