@@ -1,4 +1,4 @@
-package hashing.hash_table_using_collections;
+package hash_table_using_collections;
 
 import java.util.*;
 

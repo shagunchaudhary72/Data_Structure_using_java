@@ -1,4 +1,4 @@
-package hashing.hash_table_using_doubly_linked_list;
+package hash_table_using_doubly_linked_list;
 
 public class DLinkedList {
 

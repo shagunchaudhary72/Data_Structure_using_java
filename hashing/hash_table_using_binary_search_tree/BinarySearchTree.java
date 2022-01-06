@@ -1,4 +1,4 @@
-package hashing.hash_table_using_binary_search_tree;
+package hash_table_using_binary_search_tree;
 
 import java.util.*;
 public class BinarySearchTree {

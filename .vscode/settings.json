@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Searching",
-        "Sorting"
+        "Sorting",
+        "hashing"
     ]
 }
