@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "Searching",
         "Sorting",
-        "hashing"
+        "hashing",
+        "matrix"
     ]
 }
