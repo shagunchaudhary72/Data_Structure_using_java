@@ -3,6 +3,7 @@
         "Searching",
         "Sorting",
         "hashing",
-        "matrix"
+        "matrix",
+        "graph"
     ]
 }
