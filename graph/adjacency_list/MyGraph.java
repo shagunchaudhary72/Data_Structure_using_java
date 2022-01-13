@@ -14,7 +14,7 @@ public class MyGraph {
         for( int i = 0; i < vertices; ++i )
             adj.add(new ArrayList<Integer>());
     }
-
+    //we are assuming that graph is unweighted and indirected
     public void addEdge(int v1, int v2 ){
         //adding edge b/w given vertices
         adj.get(v1).add(v2);
