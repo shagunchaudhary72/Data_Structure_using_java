@@ -30,6 +30,11 @@ public class MyGraph {
         }
     } 
 
+    //for the purpose of traversal 
+    public ArrayList< ArrayList< Integer >> getAdj(){
+        return adj;
+    }
+
     public static void main(String[] args) {
         MyGraph graph = new MyGraph(4);
 
