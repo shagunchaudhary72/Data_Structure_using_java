@@ -41,7 +41,9 @@ public class BFS{
         graph.addEdge(0, 2);
         graph.addEdge(1, 2);
         graph.addEdge(2, 3);
+        graph.addEdge(3, 4);
         graph.addEdge(4, 5);
+        graph.addEdge(5, 1);
 
         System.out.print("Vertices in Graph :-> ");
        // BFSTraversal(graph.getAdj(), 0, 4);
